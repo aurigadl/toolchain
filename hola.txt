@@ -1,0 +1,7 @@
+Por otro lado, en el caso de que el problema en la aplicación esté
+relacionado con la gestión de memoria dinámica, una herramienta
+que puede ser de gran utilidad es el valgrind. En realidad, hablamos
+de un marco para la construcción de herramientas de análisis de uso
+de la memoria a partir del cual se han desarrollado herramientas como memcheck,
+kcachegrind o callgrind, que se encargan de analizar el uso de la memoria
+dinámica, la caché o el graf de llamadas a funciones con el uso de caché.
